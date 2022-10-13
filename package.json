@@ -1,0 +1,16 @@
+{
+  "name": "pop-up-modal",
+  "version": "1.0.0",
+  "description": "This Component Provides  a stylish ready made Pop Up Modal With Header with all Necessary functionalities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "popup",
+    "modal",
+    "custommodal"
+  ],
+  "author": "Shishupal Singh",
+  "license": "ISC"
+}
