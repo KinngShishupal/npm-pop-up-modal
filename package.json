@@ -1,10 +1,11 @@
 {
-  "name": "pop-up-modal",
-  "version": "1.0.0",
+  "name": "pop-up-modal-with-header",
+  "version": "1.0.1",
   "description": "This Component Provides  a stylish ready made Pop Up Modal With Header with all Necessary functionalities",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "keywords": [
     "popup",
@@ -12,5 +13,30 @@
     "custommodal"
   ],
   "author": "Shishupal Singh",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KinngShishupal/npm-pop-up-modal"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "@rollup/plugin-commonjs": "^23.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-dts": "^4.2.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  }
 }
